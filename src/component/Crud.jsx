@@ -52,7 +52,7 @@ function Crud() {
 
   return (
     <div className="text-center">
-      <h1>Product List</h1>
+      <h1 className='text-indigo-500 font-bold text-3xl'>My Ecommerce Product List</h1>
 
       {editId && (
         <div>
